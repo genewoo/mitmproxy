@@ -86,7 +86,8 @@ libraries. This was tested on a fully patched installation of Ubuntu 16.04.
 .. code:: bash
 
    sudo apt-get install python3-dev python3-pip libffi-dev libssl-dev
-   sudo pip3 install mitmproxy  # or pip3 install --user mitmproxy
+   sudo pip3 install setuptools
+   sudo pip3 install mitmproxy  # or pip3 install --user mitmproxy
 
 On older Ubuntu versions, e.g., **12.04** and **14.04**, you may need to install
 a newer version of Python. mitmproxy requires Python 3.5 or higher. Please take
